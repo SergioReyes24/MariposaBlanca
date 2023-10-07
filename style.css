@@ -1,0 +1,56 @@
+body {
+    background: radial-gradient(circle, rgba(156,156,156,1) 0%, rgba(92,92,92,1) 22%, rgba(0,0,0,1) 100%); 
+    background-repeat: inherit;
+}
+
+figure {
+    text-align: center;
+}
+
+.Contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#BtnIzq, #BtnDer {
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    transition:all .3s ease-in-out;
+}
+
+#BtnIzq:hover {
+    transform: scale(1.5);
+    filter: drop-shadow(2px 2px 5px rgb(20, 203, 228));
+}
+
+#BtnDer:hover {
+    transform: scale(1.5);
+    filter: drop-shadow(2px 2px 5px rgb(20, 203, 228));
+}
+
+#BtnIzq:active {
+    transform: scale(1.5);
+    filter: invert(200%)
+}
+
+#BtnDer:active {
+    transform: scale(1.5);
+    filter: invert(200%);
+}
+
+@media (width <= 1024px) {
+   #Pagina {
+    width: 80%;
+    height: 100%;
+   }
+
+   #BtnIzq, #BtnDer {
+    width: 6vw;
+    height: 6vw;
+    
+}
+  }
