@@ -5,6 +5,9 @@ let Pagina = document.getElementById('Pagina');
 let Paginas = ["./IMG/Portada.jpg","./IMG/Pagina1.jpg", "./IMG/Pagina2.jpg", "./IMG/Pagina3.jpg", "./IMG/Pagina4.jpg", "./IMG/Pagina5.jpg", "./IMG/Pagina6.jpg", "./IMG/ContraPortada.jpg"]
 let ContadorPaginas = 0;
 
+// Alerta para informar al usuario la dirección de lectura del cuento
+window.alert("La dirección de lectura es hacia la ⬅izquierda");
+
 //  Declaración que se activa cuando se pulsa el botón izquierdo y aumenta el contador en 1
 BtnIzq.onclick = function(){
 //  Cuando el contador tiene un número definido, se cambia el source del atributo "Pagina" que es el elemento <img> en html mediante un arreglo y condicionales 
