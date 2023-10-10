@@ -2,7 +2,7 @@
 let BtnIzq = document.getElementById('BtnIzq');
 let BtnDer = document.getElementById('BtnDer');
 let Pagina = document.getElementById('Pagina');
-let Paginas = ["./IMG/Portada.jpg","./IMG/Pagina1.jpg", "./IMG/Pagina2.jpg", "./IMG/Pagina3.jpg", "./IMG/Pagina4.jpg", "./IMG/Pagina5.jpg", "./IMG/Pagina6.jpg", "./IMG/Contraportada.jpg"]
+let Paginas = ["./IMG/Portada.jpg","./IMG/Pagina1.jpg", "./IMG/Pagina2.jpg", "./IMG/Pagina3.jpg", "./IMG/Pagina4.jpg", "./IMG/Pagina5.jpg", "./IMG/Pagina6.jpg", "./IMG/ContraPortada.jpg"]
 let ContadorPaginas = 0;
 
 //  Declaración que se activa cuando se pulsa el botón izquierdo y aumenta el contador en 1
